@@ -3,7 +3,6 @@
 #include <SDL_image.h>
 #include <SDL_ttf.h>
 #include <vector>
-#include "defs.h"
 #include "graphics.h"
 #include "menu.h"
 #include "game.h"
@@ -65,8 +64,7 @@ restart_game:
     while (isRunning)
     {
         handleEvents(e, velocityY, jumpCount, MAX_JUMP, isRunning);
-        updateGame(
-            dinoY, velocityY, jumpCount,GROUND_Y, GRAVITY, JUMP_FORCE, MAX_JUMP,xuongRongX, xuongRongX2,
+        updateGame( dinoY, velocityY, jumpCount,GROUND_Y, GRAVITY, JUMP_FORCE, MAX_JUMP,xuongRongX, xuongRongX2,
             xuongRongY,backgroundX, backgroundSpeed,speed, maxSpeed,score, speedTime, scoreTime,e);
 
         frameStart = SDL_GetTicks();

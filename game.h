@@ -17,12 +17,12 @@ void initGame(SDL_Window*& window, SDL_Renderer*& renderer,
     window = initSDL(SCREEN_WIDTH, SCREEN_HEIGHT, WINDOW_TITLE);
     renderer = createRenderer(window);
 
-    background = loadTexture("ảnh/phongCanh/background.png", renderer);
-    khunglong = loadTexture("C:\\LTNC\\T-Rex Run Run\\ảnh\\T-rex\\khunglong.png", renderer);
-    xuongRong = loadTexture("C:\\LTNC\\T-Rex Run Run\\ảnh\\cactus\\cactus_4.bmp", renderer);
-    xuongRong2 = loadTexture("C:\\LTNC\\T-Rex Run Run\\ảnh\\cactus\\cactus_2.bmp", renderer);
-    manHinhCho = loadTexture("C:\\LTNC\\T-Rex Run Run\\ảnh\\phongCanh\\manHinhCho.png", renderer);
-    loadLaiGame = loadTexture("C:\\LTNC\\T-Rex Run Run\\ảnh\\anhLoadGame\\loadLaiGame.png", renderer);
+    background = loadTexture("C:\\LTNC\\T-Rex Run Run\\picture\\phongCanh\\background.png", renderer);
+    khunglong = loadTexture("C:\\LTNC\\T-Rex Run Run\\picture\\T-rex\\khunglong.png", renderer);
+    xuongRong = loadTexture("C:\\LTNC\\T-Rex Run Run\\picture\\cactus\\cactus_4.bmp", renderer);
+    xuongRong2 = loadTexture("C:\\LTNC\\T-Rex Run Run\\picture\\cactus\\cactus_2.bmp", renderer);
+    manHinhCho = loadTexture("C:\\LTNC\\T-Rex Run Run\\picture\\phongCanh\\manHinhCho.png", renderer);
+    loadLaiGame = loadTexture("C:\\LTNC\\T-Rex Run Run\\picture\\anhLoadGame\\loadLaiGame.png", renderer);
 
     showStartScreen(renderer, manHinhCho);
 

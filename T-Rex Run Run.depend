@@ -1,11 +1,10 @@
 # depslib dependency file v1.0
-1745738834 source:c:\ltnc\t-rex run run\main.cpp
+1746352138 source:c:\ltnc\t-rex run run\main.cpp
 	<iostream>
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_ttf.h>
 	<vector>
-	"defs.h"
 	"graphics.h"
 	"menu.h"
 	"game.h"
@@ -21,7 +20,7 @@
 
 1745543518 source:c:\ltnc\t-rex run run\game.cpp
 
-1745907425 c:\ltnc\t-rex run run\game.h
+1746352599 c:\ltnc\t-rex run run\game.h
 	<iostream>
 	<SDL.h>
 	<SDL_image.h>
